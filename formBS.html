@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h1>Modal Example</h1>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Open Modal</button>
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-center mb-5">Create an account</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="md-form">
+                        <form>
+                            <div class="form-outline mb-4">
+                            <input type="text" id="form3Example1cg" class="form-control form-control-lg" />
+                            <label class="form-label" for="form3Example1cg">Your Name</label>
+                            </div>
+                            <div class="form-outline mb-4">
+                            <input type="email" id="form3Example3cg" class="form-control form-control-lg" />
+                            <label class="form-label" for="form3Example3cg">Your Email</label>
+                            </div>
+                            <div class="form-outline mb-4">
+                            <input type="password" id="form3Example4cg" class="form-control form-control-lg" />
+                            <label class="form-label" for="form3Example4cg">Password</label>
+                            </div>
+                            <div class="form-outline mb-4">
+                            <input type="password" id="form3Example4cdg" class="form-control form-control-lg" />
+                            <label class="form-label" for="form3Example4cdg">Repeat your password</label>
+                            </div>
+                            <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="#!" class="fw-bold text-body"><u>Login here</u></a></p>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Submit</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
